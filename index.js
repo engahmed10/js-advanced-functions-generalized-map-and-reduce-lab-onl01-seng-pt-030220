@@ -37,6 +37,7 @@ function reduce(sourceArray,callBackFunc,startingPoint)
 
   }
   return total
+}
 
 //function reduce(srcArray, startingPoint= a) {
   //let  total =0
