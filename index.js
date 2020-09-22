@@ -9,6 +9,7 @@ function map(sourceArray,callBackFunc ){
 }
 
 
+<<<<<<< HEAD
 function reduce(sourceArray,callBackFunc,startingPoint)
 {
 
@@ -37,4 +38,16 @@ function reduce(sourceArray,callBackFunc,startingPoint)
 
   }
   return total
+=======
+function reduce(srcArray, startingPoint= a) {
+  let  total =0
+
+  if (startingPoint == a){
+     srcArray.forEach(el => {total  +=el } )
+      return (total-1)}
+   else {
+     srcArray.forEach(el => {total  +=el} )
+   return total
+   }
+>>>>>>> 200a1bae81b6e6fe7ed6bbae2a839a27b132140e
 }
