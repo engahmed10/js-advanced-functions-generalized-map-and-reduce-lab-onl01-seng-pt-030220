@@ -1,6 +1,6 @@
 
 function map(sourceArray,callBackFunc ){
-      let array=[]
+    let array=[]
      sourceArray.forEach(el => {
        array.push(callBackFunc(el))
 
