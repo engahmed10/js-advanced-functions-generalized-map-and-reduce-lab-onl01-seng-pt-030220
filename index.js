@@ -7,8 +7,6 @@ function map(sourceArray,callBackFunc ){
      } )
      return array
 }
-
-
 <<<<<<< HEAD
 function reduce(sourceArray,callBackFunc,startingPoint)
 {
